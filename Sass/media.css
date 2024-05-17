@@ -1,0 +1,25 @@
+@media (max-width: 990px) {
+  .menu {
+    display: block;
+  }
+  .nav_list {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #f7f7f7;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1333333333);
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    z-index: 10;
+    transform-origin: top;
+    transform: scaleY(0);
+  }
+  .nav_list .nav_list.show {
+    transform: scaleY(1);
+  }
+}/*# sourceMappingURL=media.css.map */
